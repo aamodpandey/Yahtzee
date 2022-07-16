@@ -1,0 +1,22 @@
+.ScoreTable {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 90%;
+}
+
+.ScoreTable table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ScoreTable-section {
+  vertical-align: top;
+}
+@media screen and (max-width: 399px) {
+  .ScoreTable {
+    width: 95%;
+  }
+}
